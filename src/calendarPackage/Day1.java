@@ -21,10 +21,10 @@ public class Day1
 		
 		int length = intArrayList.size();
 		
-		for (int i = 0, next = 1; i < length - 1; i++, next++)
+		for (int i = 0, j = 1; i < length - 1; i++, j++)
 		{
 			int key = intArrayList.get(i);
-			int compare = intArrayList.get(next);
+			int compare = intArrayList.get(j);
 				
 				if(key == compare)
 				{
