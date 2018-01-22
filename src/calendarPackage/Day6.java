@@ -76,7 +76,8 @@ public class Day6 {
 				
 				if(Arrays.equals(intArrayList.get(i), intArrayList.get(j))) {
 					
-					return count;
+					System.out.println(j - i);
+					return j - i;
 				}				
 				//System.out.println("i is: " + intArrayList.get(i) + " and j is: " + intArrayList.get(j));		
 		}
